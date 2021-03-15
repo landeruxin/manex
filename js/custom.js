@@ -7,6 +7,15 @@
 	$(document).ready(function(){
 	
 		$(".banner-image").backstretch('images/getaria.jpg');
+
+		
+		
+
+			// setTimeout(cambio, 20000);
+			
+
+		
+		
 		
 		// Fixed header
 		//-----------------------------------------------
@@ -111,3 +120,19 @@
 
 	}); // End document ready
 })(this.jQuery);
+
+
+// function cambio(){
+// 	setTimeout(img1,10000);
+// 	setTimeout(img2,20000);
+
+// }
+
+function img1() {
+	$(".banner-image").backstretch('images/getaria1.jpg');
+  }
+
+  function img2() {
+	$(".banner-image").backstretch('images/getaria.jpg');
+  }
+  
